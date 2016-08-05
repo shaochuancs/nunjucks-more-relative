@@ -1,0 +1,17 @@
+{
+  "name": "nunjucks-more-relative",
+  "private": false,
+  "version": "0.1.0",
+  "description": "nunjucks plugin to correct relative path",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaochuancs/nunjucks-more-relative.git"
+  },
+  "license": "MIT",
+  "author": "Chuan Shao",
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.1"
+  },
+  "scripts": {}
+}
