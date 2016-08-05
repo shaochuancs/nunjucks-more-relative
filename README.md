@@ -4,7 +4,7 @@ Take the following code as an example:
 ```
 {% include "subfolder/sample.html" %}
 ```
-The above code will try to find sample.html in <project root>/subfolder/sample.html, while it makes more sense to search ./subfolder/sample.html
+The above code will try to find sample.html in &lt;project root&gt;/subfolder/sample.html, while it makes more sense to search ./subfolder/sample.html
 
 ## Installation
 ```sh
@@ -20,4 +20,5 @@ moreRelative(nunjucks);
 
 ## License
 (The MIT License)
+
 Copyright (c) 2015 Chuan Shao &lt;shaochuancs@gmail.com&gt;
