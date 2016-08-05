@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6.2.2"
+
+script:
+  # Run test script, depending on istanbul install
+  - "test ! -z $(npm -ps ls istanbul) || npm test"
+  - "test   -z $(npm -ps ls istanbul) || npm run-script test-travis"
+
+after_script:
+  - "test -e ./coverage/lcov.info && npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
