@@ -1,5 +1,4 @@
-# nunjucks-more-relative
-![Build Status](travis-url)
+# nunjucks-more-relative ![Build Status](https://travis-ci.org/shaochuancs/nunjucks-more-relative.svg?branch=master)
 [![Test Coverage]][coveralls-url]
 
 nunjucks plugin to correct relative path. Normally, when include another template, nunjucks will take the filename parameter as absolute path, unless it starts with "./" or "../". However, this may not be what you expect.
@@ -25,6 +24,3 @@ moreRelative(nunjucks);
 (The MIT License)
 
 Copyright (c) 2016 Chuan Shao &lt;shaochuancs@gmail.com&gt;
-
-[travis-url]: https://travis-ci.org/shaochuancs/nunjucks-more-relative.svg?branch=master
-[coveralls-url]: https://coveralls.io/r/jshttp/accepts
