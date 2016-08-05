@@ -21,4 +21,4 @@ moreRelative(nunjucks);
 ## License
 (The MIT License)
 
-Copyright (c) 2015 Chuan Shao &lt;shaochuancs@gmail.com&gt;
+Copyright (c) 2016 Chuan Shao &lt;shaochuancs@gmail.com&gt;
