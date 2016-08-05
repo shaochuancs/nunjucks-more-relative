@@ -1,5 +1,5 @@
 # nunjucks-more-relative
-[![Build Status]][travis-url]
+![Build Status](travis-url)
 [![Test Coverage]][coveralls-url]
 
 nunjucks plugin to correct relative path. Normally, when include another template, nunjucks will take the filename parameter as absolute path, unless it starts with "./" or "../". However, this may not be what you expect.
