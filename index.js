@@ -5,7 +5,9 @@
 "use strict";
 
 module.exports = function(nunjucks) {
-  nunjucks.Loader.prototype.isRelative = function(filename) {
-    return filename.substr(0,1) !== '/';
-  };
+  if (nunjucks && nunjucks.Loader && nunjucks.Loader.prototype) {
+    nunjucks.Loader.prototype.isRelative = function(filename) {
+      return filename.substr(0,1) !== '/';
+    };
+  }
 };
